@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON ICON -->
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+
+    <!-- FOR ENGINE SEARCH RESULTS -->
+    <meta name="description" content="Design for America - RISD x BROWN">
+    <meta name="keywords" content="Design for America">
+
+    <!-- STYLE + SCRIPT -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>RISD | BROWN DESIGN FOR AMERICA</title>
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="nav-1">
+        <a href="index.html" style="height:44px"><img src="img/logo.png" width="44px" height="44px" style="border-radius: 4px;"></a>
+        <ul class="wrapper-horizontal-right">
+            <li><a href="about.html" class="nav-item">ABOUT</a></li>
+            <li><a href="our_studio.html" class="nav-item">OUR STUDIO</a></li>
+            <li><a href="past_projects.html" class="nav-item">PAST PROJECTS</a></li>
+            <li><a href="mit_sprint.html" class="nav-item">MIT DESIGN SPRINT</a></li>
+            <li><a href="contact.html" class="nav-item">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- HOME CONTENT -->
+    <div class="content">
+        <!-- WHITEBOARD -->
+        <div id="masthead" class="bg">
+            <div id="whiteboard">
+                <canvas></canvas>
+                <ul class="selector">
+                    <li class="selector-item eicon-pen" id="pen-tool"></li>
+                    <li class="selector-item color" id="yellow"></li>
+                    <li class="selector-item color" id="green"></li>
+                    <li class="selector-item color" id="blue"></li>
+                    <li class="selector-item color" id="purple"></li>
+                    <li class="selector-item color" id="red"></li>
+                    <li class="selector-item color" id="grey"></li>
+                </ul>
+            </div>
+            <div class="intro">
+                <h3 class="outline">RISD X BROWN</h3>
+                <h1 class="title bold">DESIGN FOR<br><span class="auto-type bold"></span></h1>
+                <!--TYPING EFFECT SCRIPT-->
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                <script>
+                    // TYPING CONTROLS - CHANGE STRINGS TO CURRENT YEAR TEAM TOPICS
+                    var typed = new Typed(".auto-type", {
+                        strings: ["AMERICA.", "EDUCATION.", "SUSTAINABILITY.", "ACCESSIBILITY.", "YOUTH."],
+                        typeSpeed: 200,
+                        backDelay: 2000,
+                        fadeOut: true,
+                        loop: true,
+                    });
+                </script>
+                <h3>TACKLING <span class="outline">SOCIAL CHALLENGES</span> THROUGH <span class="outline">HUMAN-CENTERED DESIGN</span></h3>
+                <!--CHANGE THIS LINE WHEN APPLICATIONS ARE CLOSED-->
+                <h2><span class="js-highlighted">24-25 STUDIO APPLICATIONS COMING SOON!</span></h2>
+                <!-- ARE NOW OPEN -->
+                <!-- <a type="button" class="button-1" id="masthead-button" href="https://forms.gle/MFoyKQfsejpUzVMw7" target="_blank">APPLY NOW →</a> -->
+            </div>
+        </div>
+        <div class="line-horizontal"></div>
+        <!-- OUR MISSION -->
+        <div class="image-text js-appear">
+            <img src="img/our_studio/bts/2.jpg">
+            <div class="wrapper-vertical js-appear">
+                <h3 class="outline">OUR MISSION</h3>
+                <h2 class="body-text">At DFA, our mission is not only to give people the opportunity to explore design thinking and human-centered design, but also to tackle the social challenges they encounter on campus and beyond. <span class="body-text js-highlight">We believe in turning empathy into action to innovate in a way that will actually benefit the community.</span></h2>
+                <a type="button" class="button-1" href="about.html">LEARN MORE →</a>
+            </div>
+        </div>
+        <div class="line-horizontal"></div>
+        <!-- PAST PROJECTS -->
+        <div class="content-section bg">
+            <h3 class="outline">PAST PROJECTS</h3>
+            <div class="grid-4 js-appear">
+                <a href="https://drive.google.com/file/d/1nnZSohHwXrO7u1RG1YnbcEympWYn5vUu/view?usp=sharing" target="_blank" class="grid-4-item-outline">
+                    <div class="corner"></div>
+                    <div class="grid-text-outline"> 
+                        <h3 class="js-highlight">ACCESSIBILITY</h3> 
+                        <p>2022-2023</p>
+                        <p class="body-text">How might we use <span class="body-text underline">modular devices</span> to <span class="body-text underline">increase accessibility of physical spaces</span> for <span class="body-text underline">people with temporary physical disabilities?</span></p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1pXaEk3BRPTIh2PvSxvG7yMGiwsoAmUBr/view?usp=share_link" target="_blank" class="grid-4-item-outline">
+                    <div class="corner"></div>
+                    <div class="grid-text-outline">
+                        <h3 class="js-highlight">COMMUNITY ENGAGEMENT</h3> 
+                        <p>2022-2023</p>
+                        <p class="body-text">How might we <span class="body-text underline">interact meaningfully</span> with the <span class="body-text underline">Providence community</span>, <span class="body-text underline">bridging the gap between it and College Hill?</span></p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/19-5dwi8U9P9vg7KuoxVshwzONOHczW7W/view?usp=share_link" target="_blank" class="grid-4-item-outline">
+                    <div class="corner"></div>
+                    <div class="grid-text-outline"> 
+                        <h3 class="js-highlight">SUSTAINABILITY</h3> 
+                        <p>2022-2023</p>
+                        <p class="body-text">How might we teach <span class="body-text underline">circular design</span> to  <span class="body-text underline">young kids</span> through <span class="body-text underline">educational play?</span></p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1mHLvozbMSYBM74ZBUSvfeC7wijbFnwGh/view?usp=share_link" target="_blank" class="grid-4-item-outline">
+                    <div class="corner"></div>
+                    <div class="grid-text-outline"> 
+                        <h3 class="js-highlight">WASTE MANAGEMENT</h3> 
+                        <p>2022-2023</p>
+                        <p class="body-text">How might we encourage <span class="body-text underline">College Hill students</span> to <span class="body-text underline">redistribute uneeded/unwanted belongings and items</span> within the <span class="body-text underline">community?</span></p>
+                    </div>
+                </a>
+            </div>
+            <a href="past_projects.html">SEE MORE</a>
+        </div>
+        <div class="line-horizontal"></div>
+        <!-- OUR PARTNERS -->
+        <div class="loop">
+            <h3 class="outline">OUR PARTNERS</h3>
+            <ul>
+                <li class="loop-item" style="background-image: url(img/logos/unilever.png);"></li>
+                <li class="loop-item" style="background-image: url(img/logos/as220.png);"></li>
+                <li class="loop-item" style="background-image: url(img/logos/cvs.png);"></li>
+                <li class="loop-item" style="background-image: url(img/logos/atw80.png);"></li>
+                <li class="loop-item" style="background-image: url(img/logos/dfa.png);"></li>
+            </ul>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <p>© DESIGN FOR AMERICA 2023<br>DESIGNED + DEVELOPED BY SUNJOO PARK RISD ID '24</p>
+        </footer>
+    </div>
+</body>
+</html>
